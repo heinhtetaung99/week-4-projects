@@ -1,39 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sen:wght@700;800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  background-color: #013243;
+  font-family: "Inter", sans-serif;
+  color: #32f5c8;
+}
+
 nav {
-  background-color: #bef264;
-  opacity: 0.5;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  position: sticky;
+  background-color: #013243;
 }
 
 .container {
-  margin-top: 240px;
+  width: 1200px;
+  margin: 0 auto;
 }
 
-.card {
-  height: 200px;
+h2 {
+  margin-top: 24px;
+  font-size: 108px;
+  font-family: "Sen", sans-serif;
+  line-height: 1;
 }
 
-h1 {
-  bottom: 200px;
-  right: 20px;
+p,
+footer {
+  color: #a9bdc6;
+  margin-top: 24px;
 }
 
-.one {
-  background-color: #ffedd5;
-  opacity: 0.5;
+button {
+  padding: 8px 12px;
+  margin-top: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #013243;
+  border-radius: 4px;
+  border: none;
+  background-color: #32f5c8;
 }
 
-.two {
-  background-color: #f97316;
-
-  opacity: 0.5;
-}
-
-.three {
-  background-color: #7c2d12;
-  opacity: 0.5;
+footer .container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
