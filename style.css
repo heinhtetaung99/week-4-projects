@@ -13,9 +13,10 @@ body {
 }
 
 nav {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   position: sticky;
+  top: 0;
   background-color: #013243;
 }
 
@@ -46,10 +47,15 @@ button {
   border-radius: 4px;
   border: none;
   background-color: #32f5c8;
+  cursor: pointer;
 }
 
 footer .container {
+  width: 100%;
   display: flex;
   align-items: center;
   gap: 12px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
