@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #bef264;
+  opacity: 0.5;
+}
+
+.container {
+  margin-top: 240px;
+}
+
+.card {
+  height: 200px;
+}
+
+h1 {
+  bottom: 200px;
+  right: 20px;
+}
+
+.one {
+  background-color: #ffedd5;
+  opacity: 0.5;
+}
+
+.two {
+  background-color: #f97316;
+
+  opacity: 0.5;
+}
+
+.three {
+  background-color: #7c2d12;
+  opacity: 0.5;
+}
