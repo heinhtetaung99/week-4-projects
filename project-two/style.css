@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  padding: 16px 0;
+  color: #fff;
+  background-color: #a78bfa;
+  position: sticky;
+  top: 0;
+}
+
+.container {
+  margin: 0 12rem;
+}
+
+h1:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+h2 {
+  padding: 16px 0;
+  font-weight: 700;
+}
+
+h2:hover {
+  color: #ff6820;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+h3 {
+  margin-top: 1rem;
+  padding: 8px 0;
+}
+
+.career-content {
+  background-color: #ffe5d9;
+}
+
+button {
+  width: 120px;
+  padding: 8px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-right: 1.5rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a78bfa;
+  color: #fff;
+}
+
+.btn-one {
+  background-color: #ff6820;
+  color: #fff;
+}
+
+.btn-two {
+  background-color: #fff;
+}
+
+footer {
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #a78bfa;
+  position: sticky;
+  bottom: 0;
+}
+
+footer a {
+  margin-right: 48px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #000;
+}
+
+a:visited {
+  color: #ff6820;
+}
